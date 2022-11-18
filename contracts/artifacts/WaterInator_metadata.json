@@ -1,0 +1,129 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "cname",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "addr",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getLatestRecord",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "temp",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "ph",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "tds",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "flow_rate",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "timestamp",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct WaterInator.Packet",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "temp",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "ph",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "tds",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "vol",
+						"type": "string"
+					}
+				],
+				"name": "record",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/4_WaterInator.sol": "WaterInator"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/4_WaterInator.sol": {
+			"keccak256": "0x9542777765f17901808a070ea86eb8517f87e9de23932bbfca26ec42b633f7de",
+			"urls": [
+				"bzz-raw://b9ba6a82977edab16eb3abda65e1730d81dd4eee0201f6123139780b88d08c5a",
+				"dweb:/ipfs/QmdgUW91V2oQDcSiN6qHLB3gCCgj4V42MDH4LdLUBZ3jEP"
+			]
+		}
+	},
+	"version": 1
+}
